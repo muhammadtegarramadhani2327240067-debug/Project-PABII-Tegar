@@ -1,0 +1,28 @@
+[
+    {
+        "nama": "Muhammad Tegar",
+        "umur": 23,
+        "alamat": {
+            "jalan": "Jl. A.Rivai",
+            "kota": "Palemabng",
+            "provinsi": "Sumatera Selatan"
+        },
+        "hobi": [
+            "membaca",
+            "bersepeda"
+        ]
+    },
+    {
+        "nama": "Ferdinan Lubis",
+        "umur": 25,
+        "alamat": {
+            "jalan": "Jl. Cipto",
+            "kota": "Jakarta",
+            "provinsi": "DKI Jakarta"
+        },
+        "hobi": [
+            "menulis",
+            "makan"
+        ]
+    }
+]
