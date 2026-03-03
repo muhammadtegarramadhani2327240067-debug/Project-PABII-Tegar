@@ -54,8 +54,14 @@ class MyHomePage extends StatelessWidget {
                   subtitle: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(karyawan.umur.toString()),
-                      Text(karyawan.umur.toString()),
+                      Text("Umur : " + karyawan.umur.toString()),
+                      Text(
+                        "Alamat : " +
+                            karyawan.alamat.jalan +
+                            "," +
+                            karyawan.alamat.kota.toString(),
+                      ),
+                      Text("Hobi : " + karyawan.hobi.join(", ")),
                     ],
                   ),
                 );
