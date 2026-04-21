@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'package:firebase_core/firebase_core.dart';
-// Import konfigurasi Firebase yang di-generate otomatis oleh FlutterFire CLI
-import 'firebase_options.dart';
+import 'package:mdp_gold/firebase_option.dart';
 // Import SplashScreen sebagai halaman awal
 import 'package:mdp_gold/screens/splash_screen.dart';
 
