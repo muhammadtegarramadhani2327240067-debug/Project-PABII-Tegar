@@ -23,15 +23,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         return windows;
       case TargetPlatform.linux:
@@ -47,33 +41,53 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA3GNUgyZGNdhHnDLjnA_0LU9_OHcnIkWE',
-    appId: '1:763218510015:web:4e58ed510c7f91e774c60a',
-    messagingSenderId: '763218510015',
-    projectId: 'daftarbelanja-8f365',
-    authDomain: 'daftarbelanja-8f365.firebaseapp.com',
-    databaseURL: 'https://daftarbelanja-8f365-default-rtdb.firebaseio.com',
-    storageBucket: 'daftarbelanja-8f365.firebasestorage.app',
-    measurementId: 'G-H814QJYQH9',
+    apiKey: 'AIzaSyAzqGz6WN_EwUmf85tS3zNEpDM5muQ99LQ',
+    appId: '1:766800886456:web:8725fdf6a67c3901f7d24d',
+    messagingSenderId: '766800886456',
+    projectId: 'daftarbelanja-b8f58',
+    authDomain: 'daftarbelanja-b8f58.firebaseapp.com',
+    databaseURL: 'https://daftarbelanja-b8f58-default-rtdb.firebaseio.com',
+    storageBucket: 'daftarbelanja-b8f58.firebasestorage.app',
+    measurementId: 'G-QNMJ532YWH',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCH_1NrIclRCRjCuw3qfOGdB6cZmeC5boo',
-    appId: '1:763218510015:android:34bdd0d5e62e2b4974c60a',
-    messagingSenderId: '763218510015',
-    projectId: 'daftarbelanja-8f365',
-    databaseURL: 'https://daftarbelanja-8f365-default-rtdb.firebaseio.com',
-    storageBucket: 'daftarbelanja-8f365.firebasestorage.app',
+    apiKey: 'AIzaSyAWn4jxW_oMRqQbohp-Lb1BEJuoYjguYwo',
+    appId: '1:766800886456:android:e0f9af5e6a69dcacf7d24d',
+    messagingSenderId: '766800886456',
+    projectId: 'daftarbelanja-b8f58',
+    databaseURL: 'https://daftarbelanja-b8f58-default-rtdb.firebaseio.com',
+    storageBucket: 'daftarbelanja-b8f58.firebasestorage.app',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBBx9ABw54h7qua5897kZtvnPBOY6nNwlM',
+    appId: '1:766800886456:ios:25378168fb59e84ff7d24d',
+    messagingSenderId: '766800886456',
+    projectId: 'daftarbelanja-b8f58',
+    databaseURL: 'https://daftarbelanja-b8f58-default-rtdb.firebaseio.com',
+    storageBucket: 'daftarbelanja-b8f58.firebasestorage.app',
+    iosBundleId: 'com.example.daftarBelanja',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBBx9ABw54h7qua5897kZtvnPBOY6nNwlM',
+    appId: '1:766800886456:ios:25378168fb59e84ff7d24d',
+    messagingSenderId: '766800886456',
+    projectId: 'daftarbelanja-b8f58',
+    databaseURL: 'https://daftarbelanja-b8f58-default-rtdb.firebaseio.com',
+    storageBucket: 'daftarbelanja-b8f58.firebasestorage.app',
+    iosBundleId: 'com.example.daftarBelanja',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA3GNUgyZGNdhHnDLjnA_0LU9_OHcnIkWE',
-    appId: '1:763218510015:web:d8e2e7348b19272174c60a',
-    messagingSenderId: '763218510015',
-    projectId: 'daftarbelanja-8f365',
-    authDomain: 'daftarbelanja-8f365.firebaseapp.com',
-    databaseURL: 'https://daftarbelanja-8f365-default-rtdb.firebaseio.com',
-    storageBucket: 'daftarbelanja-8f365.firebasestorage.app',
-    measurementId: 'G-1XC6P4B4JH',
+    apiKey: 'AIzaSyAzqGz6WN_EwUmf85tS3zNEpDM5muQ99LQ',
+    appId: '1:766800886456:web:238b5860d40833b9f7d24d',
+    messagingSenderId: '766800886456',
+    projectId: 'daftarbelanja-b8f58',
+    authDomain: 'daftarbelanja-b8f58.firebaseapp.com',
+    databaseURL: 'https://daftarbelanja-b8f58-default-rtdb.firebaseio.com',
+    storageBucket: 'daftarbelanja-b8f58.firebasestorage.app',
+    measurementId: 'G-X5ZJR3QT0M',
   );
 }
