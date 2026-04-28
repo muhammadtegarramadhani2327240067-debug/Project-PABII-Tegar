@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352586746768",
+    "project_id": "inventoris-barang",
+    "storage_bucket": "inventoris-barang.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352586746768:android:cdc24197ccff6cbc7dc115",
+        "android_client_info": {
+          "package_name": "com.example.inventoris_barang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMzhEWYNz5bpl4sKEph0nCynb8vVfhCBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
