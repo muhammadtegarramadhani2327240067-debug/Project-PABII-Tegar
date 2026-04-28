@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'inventoris-barang.firebasestorage.app',
     measurementId: 'G-ZMXDLGK2V4',
   );
+
 }
